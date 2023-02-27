@@ -5,5 +5,5 @@ inputs:
     description: 'The key to unlock the secrets.'
     required: true
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'
